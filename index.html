@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 PROJECT</title>
+	<style>
+		body{
+			background-image: url(cry.png);
+			background-repeat:no-repeat ;
+			background-size: cover;
+			font-family: Ariel, sans-serif;
+			align-content: center;
+			align-items: center;
+			padding: 10px;
+
+		}
+		img{
+			width: 200px;
+			height: 150px;
+		
+		}
+		.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			height: 50%;
+			border-radius: 15px;
+			border: 5px solid #1B3C53;
+
+		}
+		h1,h2,h5,p{
+			text-align: center;
+			margin-bottom: 20px;
+			font-family: sans-serif;
+			color: white ;
+
+
+		}
+		label{
+			margin: 10px 0 5px;
+		}
+		input,select,textarea,button{
+			width: 100%;
+			padding: 8px;
+			border: 3px solid #6D94C5;
+			border-radius: 5px;
+			font-size: 20px;
+			align-items: center;
+		}
+		.option-label{
+			display: inline-flex;
+			align-items: center;
+			margin-right: 10px;
+			font-weight: normal;
+		}
+		.option-label input{
+			margin-right: 5px;
+			width: auto;
+		}
+		input[type="submit"],
+		button{
+			background: #34699A ;
+			color: white;
+			cursor: pointer;
+			border: none;
+			transition: background 0.3s;
+		}
+		input[type="submit"]:hover,
+		button{
+			background: #113F67;
+		}
+		.form-buttons{
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+		}
+		h1,h2,h5{
+			background-color:#6D94C5;
+		}
+		.slamstyle{
+			align-items: center;
+			align-content: center;
+			display: inline-block;
+		}
+		.movietime{
+			align-items: center;
+			align-content: center;
+			display: inline-block;
+		}
+		.container{
+			text-align: center;
+		}
+		.subset{
+  			text-align: center;
+		}
+		.sups{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			height: 50%;
+			background-color: #CBDCEB;
+			border-radius: 15px;
+		}
+		a{
+			color: white;
+		}
+		
+
+		
+	</style>
+</head>
+<body>
+	
+	<img src="teh.png">
+
+	<h1>My Archive</h1>
+    <br>
+    <h2>a peak into my visual concepts</h2>
+    <h5>Aspiring Web Developer — Wil Denie</h5>
+    <br>
+    <br>
+
+    <img src="me.png" alt="me" class="sups">
+    <h1>Get To Know Me</h1>
+    <p>Welcome ! I am Wil Denie Casilian Manuntag — a beginner website developer learning how to code my passion. I like to share my designs as a way to express myself.</p>
+    <br>
+
+    <h1>Project Showcase</h1>
+    <br>
+    
+    <h5>MY TOP 3 FAVORITE MOVIES</h5>
+    <div class="container">
+    	<img src="SS.png" alt="SS" class="center">
+    	 <ul class="movietime">
+    	<li>💻 HTML & CSS PROJECTS</li>
+    	<li>👩‍💻 HTML FORMS</li>
+    	<li>🌐 LISTS, LINKS, & IMAGES</li>
+    	</ul>
+	</div>
+
+    <h5>MY PERSONAL SLAMBOOK</h5>
+    <img src="SLAM.png" alt="SLAM" class="center">
+    <div class="subset">
+    <ul class= "slamstyle">
+    	<li>💻 HTML & CSS PROJECTS</li>
+    	<li>👩‍💻 PERSONAL BLOG</li>
+    	<li>🌐 SCHOOL PORTFOLIO</li>
+    </ul>
+	</div>
+    <h1>CALL ME IF YOU GET LOST</h1>
+
+    <div class="box">
+    	<form>
+    		<label for="text">Full Name:</label>
+    		<br>
+			<input type="text" name="text">
+			<br>
+
+			<label for="text">Email:</label>
+			<br>
+			<input type="text" name="text">
+			<br>
+
+			<label>How did you find me? :</label>
+			<label class="option-label"><input type="radio" id="option1" name="radio" value="Friends">Friends</label>
+			<label class="option-label"><input type="radio" id="option2" name="radio" value="Social Media">Social Media</label>
+			<label class="option-label"><input type="radio" id="option3" name="radio" value="Google">Google</label>
+			<br>
+
+			<label>Service Interested in? :</label>
+			<label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="Coding">Coding</label>
+			<label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="Design">Web Design</label>
+			<label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="Electronics">Electronics</label>
+			<a href="https://cleancommit.io/blog/whats-the-difference-between-a-web-developer-website-programmer-and-web-designer/">difference in services</a>
+			<br>
+			<br>
+
+			<label for="dropdown">Rate my portfolio</label>
+				<br>
+				<select id="dropdown" name="Grade Level">
+					<option value="option1"></option>
+					<option value="option2">1/5</option>
+					<option value="option3">2/5</option>
+					<option value="option4">3/5</option>
+					<option value="option5">4/5</option>
+					<option value="option5">5/5</option>
+				</select>
+				<br>
+				<br>
+
+				<label for="textarea">💡Feedback :</label>
+				<br>
+				<textarea id="textarea" name="textarea" rows="5"></textarea>
+				<br>
+
+			<div class="form-buttons">
+				<input type="SUBMIT" value="SUBMIT">
+			</div>
+
+    	</form>
+
+    </div>
+
+</body>
+</html>
